@@ -1,0 +1,13 @@
+
+$ bundle exec rake rails_koans:rails_tutorial
+(in /Users/jasonn/source/rails_koans)
+
+
+
+Your Koan is available at https://www.pivotaltracker.com/projects/477881
+
+$
+
+TODO:
+  Add more projects
+  Clean up the code
