@@ -1,0 +1,17 @@
+name,description
+Purchase Rails Tutorial E-Book,Even though the Rails Tutorial is available online at http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2#top, please go buy the book to support Ruby Education:  http://amzn.to/AeryB0
+Install Required Software,You should have the following software installed: \n\n  ruby -v (1.8.7 required, 1.9.2+ is better) \n\n rails -v (3.2.1+) \n\n git --version (1.7.9+)
+Configure Git,git config --global user.name 'Your Name' \n\n git config --global user.email your.email@example.com \n\n git config --global alias.co checkout
+Create demo_app,Create a new rails app called 'demo_app'
+Install required gems,The default Gemfile should be close to what you need, but compare it to http://ruby.railstutorial.org/chapters/a-demo-app?version=3.2#code:demo_gemfile_sqlite_version_redux \n\n run 'bundle' when done
+Save your work, git init \n\n git add . \n\n git commit -m 'Initial commit'
+Generate User scaffold,Users should have a name and an email
+Verify User scaffolding works,http://localhost:3000/users
+Generate Micropost scaffold,Microposts should have content and a user_id (integer)
+Limit Microposts content length,content field should be no more than 140 characters
+Link Microposts to Users,A user should have many microposts and a micropost should belong to a user
+Save your work, git init \n\n git add . \n\n git commit -m 'Add Users and Microposts'
+Deploy to Heroku, heroku create --stack cedar \n\n git push heroku master \n\n heroku run rake db:migrate \n\n heroku open \n\n See http://ruby.railstutorial.org/chapters/beginning?version=3.2#sec:deploying for more details
+
+
+
