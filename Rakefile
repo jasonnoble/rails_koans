@@ -1,7 +1,7 @@
 require 'pivotal-tracker'
 require 'csv'
 
-PivotalTracker::Client.token = ENV['TRACKER_TOKEN'] || 'jkfduisj97823974j2kl24899234'
+PivotalTracker::Client.token = ENV['TRACKER_TOKEN']
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 
